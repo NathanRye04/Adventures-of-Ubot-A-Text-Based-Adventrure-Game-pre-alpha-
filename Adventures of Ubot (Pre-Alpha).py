@@ -55,16 +55,11 @@ def game_over(reason):
     play_again()
 
 
-
-
-
 def startgame():
     
     slowprint("\nOnce upon a time in a very distant land there was a robot adventurer called Ubot. He was created by his masters before they wiped themselves from the planet.")
     slowprint("One day when he was venturing in the dungeons of uzurim, he faced a goblin that pulled a knife to rob him.")
     print("\nwhat do you do? ( 'Run away' or 'Fight' )")
-
-         
 
     answer = input(">")
 
